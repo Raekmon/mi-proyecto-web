@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bree+Serif&family=Caprasimo&display=swap");
+
+html {
+    scroll-behavior: smooth;
+}
+
+p{
+       padding-left: 30px;
+    font-size: clamp(1rem, 10vw, 20px);
+    line-height: 1.5;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(198, 243, 243);
+}
+
+ul {
+    text-align: right;
+    padding: 20px;
+    margin: 0;
+}
+
+a {
+    font-family: sans-serif;
+    text-decoration: none;
+    padding: 10px 30px;
+    font-size: clamp(14px, 2vw, 20px);
+    color: #3b8ca7;
+    font-weight: 700;
+    transition: color 0.3s;
+}
+
+.navegation:hover {
+    background-color: rgb(227, 251, 251);
+    border-radius: 30px;
+    color: #004997;
+}
+
+h1 {
+    letter-spacing: 3px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #3b8ca7;
+    font-style: normal;
+    font-size: clamp(2rem, 10vw, 100px);
+    padding-left: 30px;
+}
+
+h2{
+     letter-spacing: 3px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #3b8ca7;
+    font-style: normal;
+    font-size: clamp(2rem, 10vw, 100px);
+    padding-left: 30px;
+}
+
+.informacion-principal p {
+    padding-left: 30px;
+    font-size: clamp(1rem, 10vw, 20px);
+    line-height: 1.5;
+}
+
+.mas-informacion {
+    padding-left: 30px;
+}
+
+.btton-saber-mas{
+    border-radius: 30px;
+    background-color: #3b8ca7;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: none;
+    height:30px;
+}
+
+.btton-saber-mas a{
+    color:white;
+}
+
+.btton-saber-mas:hover {
+    background-color: #004997;
+}
+
+
+.btton-video a{
+    color:white;
+}
+
+.btton-video {
+    display: block;
+    text-align: center;
+    width: 20%;
+    max-width: 300px;
+    margin: 10px;
+    margin-left: 30px;
+    margin-top: 60px;
+    padding: 10px;
+    font-size: clamp(16px, 2vw, 18px);
+    border: none;
+    border-radius: 30px;
+    background-color: #3b8ca7;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.btton-video:hover {
+    background-color: #004997;
+}
+
+.central-Hidroelectrica,
+.about-central,
+.contactanos {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    width: min(90%, 1000px);
+    height: 80vh;
+    transition: transform 0.3s ease-in-out;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-central {
+    padding: 0;
+}
+
+.about-central {
+    text-align: center;
+}
+
+
+
+.central-Hidroelectrica {
+    background-image: url(/image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    background-position: right;
+}
+
+.central-Hidroelectrica:hover,
+.about-central:hover,
+.servicios:hover {
+    transform: translateY(-10px);
+}
+
+
+.container-Principal,
+.about,
+.services {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+
+}
+
+.contactanos {
+    text-align: center;
+}
+
+form input,
+form textarea {
+    display: block;
+    margin:auto;
+    width: 60%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 12px;
+    box-sizing: border-box;
+    border-color: #004997;
+}
+
+li {
+    margin: 10px 0;
+    padding: 0;
+    list-style: none;
+}
+
+.contactanos button {
+    display: block;
+    width: 50%;
+    max-width: 200px;
+    margin: 15px auto;
+    padding: 10px;
+    font-size: clamp(14px, 2vw, 16px);
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contactanos button:hover {
+    background-color: #aac0d7;
+}
+
+.scroll button{
+    position: fixed; 
+    bottom: 20px;     
+    right: 20px;       
+    padding: 10px 20px;
+    background: #0e82d4;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.scroll a{
+    color: aliceblue;
+    font-weight: 900;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: black;
+}
