@@ -5,7 +5,8 @@ html {
 }
 
 p{
-       padding-left: 30px;
+    margin: 0;
+    padding-left: 30px;
     font-size: clamp(1rem, 10vw, 20px);
     line-height: 1.5;
 }
@@ -16,11 +17,15 @@ body {
     background-color: rgb(198, 243, 243);
 }
 
-ul {
-    text-align: right;
-    padding: 20px;
-    margin: 0;
+
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 0;
+    margin-left: 30px;
 }
+
 
 a {
     font-family: sans-serif;
@@ -39,6 +44,7 @@ a {
 }
 
 h1 {
+    margin: 10% 0 0 0;
     letter-spacing: 3px;
     font-family: "Bebas Neue", sans-serif;
     color: #3b8ca7;
@@ -48,7 +54,7 @@ h1 {
 }
 
 h2{
-     letter-spacing: 3px;
+    letter-spacing: 3px;
     font-family: "Bebas Neue", sans-serif;
     color: #3b8ca7;
     font-style: normal;
@@ -83,47 +89,22 @@ h2{
     background-color: #004997;
 }
 
-
-.btton-video a{
-    color:white;
-}
-
-.btton-video {
-    display: block;
-    text-align: center;
-    width: 20%;
-    max-width: 300px;
-    margin: 10px;
-    margin-left: 30px;
-    margin-top: 60px;
-    padding: 10px;
-    font-size: clamp(16px, 2vw, 18px);
-    border: none;
-    border-radius: 30px;
-    background-color: #3b8ca7;
-    cursor: pointer;
-    transition: background-color 0.3s;
-}
-
-
-.btton-video:hover {
-    background-color: #004997;
-}
-
 .central-Hidroelectrica,
 .about-central,
 .contactanos {
     background-color: white;
-    border-radius: 15px;
-    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
-    width: min(90%, 1000px);
-    height: 80vh;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.9);
+    width: min(90%);
+    height: 90vh;
     transition: transform 0.3s ease-in-out;
     margin: 30px auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
 }
+
+
 
 .about-central {
     padding: 0;
@@ -168,7 +149,7 @@ form input,
 form textarea {
     display: block;
     margin:auto;
-    width: 60%;
+    width: 40%;
     padding: 12px;
     border-radius: 8px;
     border: 1px solid #ccc;
@@ -189,7 +170,7 @@ li {
     max-width: 200px;
     margin: 15px auto;
     padding: 10px;
-    font-size: clamp(14px, 2vw, 16px);
+    font-size: clamp(10px, 2vw, 16px);
     border: none;
     border-radius: 5px;
     background-color: #007bff;
@@ -204,12 +185,12 @@ li {
 
 .scroll button{
     position: fixed; 
-    bottom: 20px;     
-    right: 20px;       
-    padding: 10px 20px;
+    bottom: 10px;     
+    right: 10px;       
+    padding: 05px 10px;
     background: #0e82d4;
     border: none;
-    border-radius: 8px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
